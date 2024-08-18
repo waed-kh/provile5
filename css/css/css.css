@@ -1,0 +1,342 @@
+*{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box
+   ;box-sizing: border-box;
+
+}
+
+
+.b{
+   
+   position:absolute;
+   left: 1px;
+   width:1600px;
+   height: 350px;
+   
+
+
+}
+h1{
+   
+    font-size: large;
+    color: black;
+    font-weight:bolder;
+    position:absolute;
+    top: 30px;
+    left: 40%;
+
+}
+.w1{
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+    border: 2px solid black;
+    width:48% ;
+    
+   
+    
+    float: left;
+    margin-top: 10% ;
+    padding: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+
+
+
+}
+.w2{
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+    border: 2px solid black;
+    width:48% ;
+
+    
+    margin-top: 10% ;
+    float: left;
+    padding: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+   
+  
+}
+.over {
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+    border: 2px solid black;
+   
+
+    
+ position: relative;
+ top: 30px;
+ left: 0%;
+right: 1%;
+   
+    padding: 20px;
+  
+    
+}
+.clear{
+    clear: both;
+}
+
+
+
+.visible-md{
+    display: block !important;
+} 
+
+.float{
+    float: left;
+    width: 32%;
+    padding: 0 24px 5px 0;
+    margin-top: 30px;
+
+}
+.featurise{
+    margin-top: 100px;
+    line-height: 25px;
+}
+h2
+{
+    line-height: 40px;
+    font-size: 20px
+    !important;
+    color:rgb(41, 37, 37);
+    
+
+}
+p{
+    direction: ltr;
+    line-height: 25px;
+    letter-spacing: normal;
+    justify-content:end;
+}
+
+#po{
+font-size: 40px !important;
+color:#100d0d;
+}
+.about{
+    background-color: #ececec;
+    padding: 30px 0;
+
+}
+.res{
+    line-height: 1.8;
+    font-size: 20px;
+
+}
+
+
+
+.table-s{
+    background-color: dimgray;
+    color: #000;
+    padding: 200px 0;
+    
+
+}
+.price{
+    display: inline-block;
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height:40px;
+    font-size: 18px;
+    
+}
+.table-plan{
+    width: 33.33%;
+    border: 3px solid black;
+    padding: 20px 0;
+    float: left;
+    position: relative;
+    bottom: 170px;
+}
+.ccc{
+    position: relative;
+    bottom: 170px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/*@media(max-width:420px){
+    h1{
+        margin-top: 20px !important;
+        font-size: 20px !important;
+    }
+    .w1{
+        color: black;
+        font-size: medium;
+        font-weight: bolder;
+        border: 2px solid black;
+        width:48% ;
+        
+       
+        
+        float: left;
+        margin-top: 10% ;
+        padding: 20px;
+        margin-left: 1%;
+        margin-right: 1%;
+        
+    
+    
+    
+    }
+    .w2{
+        color: black;
+        font-size: medium;
+        font-weight: bolder;
+        border: 2px solid black;
+        width:48% ;
+    
+        
+        margin-top: 10% ;
+        float: left;
+        padding: 20px;
+        margin-left: 1%;
+        margin-right: 1%;
+        
+       
+      
+    }
+        
+        
+            
+}*/
+@media(max-width:767px) {
+    .w1{
+float: none;
+margin: 0 auto 20px ;
+position: relative;
+top: 80px;
+font-size: 20px;
+
+
+
+
+
+    }
+    
+.w2{
+    float: none;
+margin: 0 auto  20px;
+position: relative;
+top: 90px;
+font-size: 20px;
+
+
+
+
+}
+.visible-md{
+    display: none !important;
+}
+
+   .hidden-xs{ display: none !important;
+
+}
+.float{
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+
+   
+  h3{
+    position: relative;
+    top: 80px !important;
+  } 
+    
+    .res{
+        text-align: center;
+        font-size: 17px !important;
+    }
+
+}
+
+@media(min-width:768px ) and (max-width:991px){
+    .container{
+        width: 750px;
+    }
+
+
+    .visible-md{
+        display: none ;
+    }
+
+
+    .hidden-sm{ display: none !important;
+
+    }
+    .featurise{
+        margin-top: 40% !important;
+        line-height: 25px ;
+    }
+       
+    .float{
+        width: 50%;
+    }
+}
+
+    
+
+
+
+@media(min-width:992px) and(max-width:1199px) {
+
+    .visible-md{
+        display: block !important ;
+      
+    
+    }
+
+    .container{
+        width: 970px;
+    }
+}
+
+@media(min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+
+    .visible-md{
+        display: none !important ;
+    }
+
+
+}
+.container{
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+
+}
+.float{
+    width: 33,33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
